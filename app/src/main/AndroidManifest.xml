@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_study">
         <activity
+            android:name=".ListViewDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListViewActivity"
             android:exported="true">
             <intent-filter>
